@@ -1,0 +1,74 @@
+:root {
+  font-family: "Rajdhani", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: hsl(217, 19%, 24%);
+}
+
+.quote-display {
+  border: 1px solid white;
+  height: 100px;
+}
+
+#app {
+  min-width: 300px;
+  max-width: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(216, 28%, 50%);
+  border-radius: 20px;
+}
+
+#getQuote {
+  height: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 15px;
+  color: hsl(150, 100%, 66%);
+}
+
+p {
+  margin-top: -2px;
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+
+.quoteButton {
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 100%;
+  min-width: 50px;
+  max-width: 50px;
+  max-height: 100px;
+  min-height: 50px;
+  background-color: hsl(150, 100%, 66%);
+}
+
+.quoteButton:hover {
+  cursor: pointer;
+  min-width: 50px;
+  max-width: 50px;
+  max-height: 100px;
+  min-height: 50px;
+  box-shadow: 0px 0px 15px 5px hsl(150, 100%, 66%);
+}
+
+.divider {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  max-width: 250px;
+  min-width: 250px;
+}
